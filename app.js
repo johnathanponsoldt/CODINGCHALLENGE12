@@ -14,3 +14,8 @@ ctx.fillRect(50, 50, 150, 100);
 ctx.strokeStyle = '#b50030';
 ctx.lineWidth = 5;
 ctx.strokeRect(250, 50, 150, 100);
+
+ctx.beginPath();
+ctx.arc(150, 300, 50, 0, 2 * Math.PI);  // Draw a full circle
+ctx.fillStyle = '#a000b5';
+ctx.fill();  // Fill the circle
